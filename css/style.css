@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100&family=Shadows+Into+Light&display=swap");
+
+:root {
+	--dark-lava: #443d36;
+	--dim-gray: #71665b;
+	--tan: #dec4a1;
+	--brown-sugar: #a8674d;
+	--umber: #665c52;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: "Poppins", sans-serif;
+	background: var(--dark-lava);
+	color: var(--tan);
+}
+
+.navbar {
+	font-size: 32px;
+}
+
+.logo {
+	font-family: "Shadows Into Light", cursive;
+	font-size: 60px;
+	text-shadow: 5px -5px 5px var(--dim-gray);
+}
+
+.container {
+	text-align: center;
+}
+
+.container li a,
+a,
+li {
+	text-decoration: none;
+	color: var(--brown-sugar);
+	list-style-type: none;
+	cursor: pointer;
+}
+
+.hero {
+	background: var(--tan);
+	color: var(--brown-sugar);
+}
+
+.hero img {
+	width: 40vh;
+	border-radius: 25px;
+}
+
+.first-con,
+.third-con {
+	background: var(--dim-gray);
+}
+
+.second-con {
+	background: var(--tan);
+	color: var(--brown-sugar);
+}
+
+.features-section {
+	width: 80%;
+	margin: 3rem;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+.hero,
+.features-section .container {
+	border-radius: 15px;
+	margin: 1rem 0;
+	padding: 2rem 1.5rem;
+}
+
+.gallery-section .container {
+	background: var(--umber);
+}
+
+.gallery-section .container img {
+	margin: 1rem 0;
+	width: 50%;
+	border-radius: 25px;
+}
+
+.contact-section {
+	background: var(--dark-lava);
+	border: 2px solid var(--tan);
+}
+
+.features-section .container img {
+	width: 100px;
+	height: 100px;
+}
